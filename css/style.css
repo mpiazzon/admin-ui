@@ -109,5 +109,11 @@ main .home {
 .add-user {
   position: absolute !important;
   top: 0;
-  right: 0;
+  right: 1rem;
+}
+
+.notifications-list {
+  background: white;
+  padding: 2rem;
+  width: 95%;
 }
