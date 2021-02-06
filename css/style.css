@@ -1,7 +1,7 @@
 /*************COLORES************************/
 :root {
   --primary: #00baff;
-  --secondary: blue;
+  --secondary: #ea2c6d;
   --success: green;
   --error: red;
   --info: blue;
@@ -31,6 +31,16 @@ h2.ti::after {
   height: 5px;
   background: #424242;
   display: block;
+}
+
+.btn-outline {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+}
+
+.btn-outline.rose {
+  border-color: var(--secondary) !important;
+  color: var(--secondary) !important;
 }
 
 nav.bg-dark {
@@ -81,6 +91,10 @@ main .home {
   grid-column-gap: 2rem;
 }
 
+.users-list {
+  position: relative;
+}
+
 .users-list-item {
   width: 100%;
   background: white;
@@ -90,4 +104,10 @@ main .home {
   flex-wrap: wrap;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.add-user {
+  position: absolute !important;
+  top: 0;
+  right: 0;
 }
