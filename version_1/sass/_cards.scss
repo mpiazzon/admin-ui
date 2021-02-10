@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #1f2940 !important;
+  border: 1px solid #1f2940 !important;
+  box-shadow: 0 0 10px rgba(28, 39, 60, 0.1);
+  border-radius: 5px;
+  margin-bottom: 1.2rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}

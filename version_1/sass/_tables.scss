@@ -1,0 +1,31 @@
+.table {
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+}
+
+.table thead th {
+  padding: 1rem 0;
+  vertical-align: bottom;
+}
+
+.table-bordered {
+  border: 1px solid rgba(234, 236, 241, 0.1);
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid rgba(234, 236, 241, 0.1);
+}
+
+.table th {
+  border-bottom: 1px solid rgba(227, 231, 237, 0.1);
+  border-top: 0 !important;
+  color: #fff;
+}
+
+.table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  text-align: center;
+}

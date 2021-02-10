@@ -1,0 +1,67 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: "Segoe UI", "Montserrat", sans-serif;
+  background: #141b2d;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #ffffff66;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+}
+
+h2.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 1rem;
+}

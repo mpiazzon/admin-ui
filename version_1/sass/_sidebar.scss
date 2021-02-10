@@ -1,0 +1,62 @@
+.sidebar {
+  background: #1f2940;
+  border-top: 0;
+  box-shadow: 0 0 10px rgba(20, 28, 43, 0.8);
+  border-right: 1px solid rgba(222, 228, 236, 0.1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  max-height: 100%;
+  text-align: center;
+
+  .logo {
+    width: 80px;
+  }
+
+  .nav li {
+    margin: 1.5rem;
+  }
+
+  .nav a {
+    background-color: #1f2940;
+    box-shadow: 0 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0 3px 4px -11px rgba(0, 188, 212, 0.6);
+
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 500;
+    min-width: 100px;
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    display: block;
+    opacity: 0.3;
+  }
+
+  .nav a.active {
+    background-color: #00bcd4;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2),
+      0 6px 9px -11px rgba(0, 188, 212, 0.6);
+    opacity: 1;
+  }
+
+  .nav a:hover {
+    opacity: 1;
+  }
+
+  .nav i {
+    font-size: 30px;
+    padding: 6px 0;
+    display: block;
+  }
+}
+
+a .material-icons {
+  vertical-align: middle;
+}
